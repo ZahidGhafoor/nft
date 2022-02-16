@@ -1,9 +1,13 @@
 import React from 'react'
+import "./App.css"
+import Home from './Screens/Home/Home'
 
 const App = () => {
   return (
     <div>
-      <h1>My name is zahid</h1>
+
+      <Home/>
+
     </div>
   )
 }
