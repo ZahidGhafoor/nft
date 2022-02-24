@@ -1,0 +1,82 @@
+.about__container{
+    background-color: #19181b;
+    color: white;
+    .about__header{
+        margin: 8rem 8rem;
+        .first{
+            font-size: 80px;
+            line-height: 1.12em;
+            font-weight: 400;
+            letter-spacing: -0.1em;
+            span{
+                color: #25b190;
+            }
+        }
+        .last{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            .head__img{
+                height: 100px;
+                width: 200px;
+            }
+        }
+    }
+    .about{
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        margin: 2rem 8rem;
+        .left{
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .heading{
+                font-size: 80px;
+
+            }
+            .paras{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+                margin: 2.5rem 0;
+                .para{
+                    
+                    color: hsla(0, 0%, 94.5%, 0.8);
+                    font-size: 14px;
+                    line-height: 1.32em;
+                    font-weight: 400;
+                    letter-spacing: -0.04em;
+                }
+            }
+            .left__btn{
+                // margin-left: 7px;
+                margin-top: 1rem;
+        
+                   padding: 12px 20px;
+            border-radius: 90px;
+            background-color: #25b190;
+            font-size: 21px;
+            letter-spacing: -0.1em;
+            box-shadow: 0 0 16px 0 #25b190;
+            opacity: 1;
+            -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+            max-width: 200px;
+            text-align: center;
+            }
+
+        }
+        .right{
+            .right__img{
+                width: 600px;
+                border-radius: 10px;
+                // height: 100%;
+            }
+        }
+
+    }
+}
