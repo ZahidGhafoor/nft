@@ -19,44 +19,49 @@ import "./Faq.scss"
 
 let greenData = [
     {
-        title: "First discussions about Sandaga",
-        date: 'August 2018',
-        detail: "First meetings between Hélène, Rayann and Ludovic about Sandaga. The main idea was to build a platform where artists from all over the world, regardless of their digital skills, could create, display and sell their art."
-    },
-    {
-        title: "Birth of the Marauders",
+        title: "What are StartSign NFTs?",
         date: 'August 2021',
-        detail: "After many weeks of brainstorming, the creative team dives into the creation of the Metaverse Marauders collection. More than 1,000 hours of drawing, inking and coloring were necessary to create the 1620 traits, 20 shapes and 16 ultra detailed backgrounds that make up the 12,000 Metaverse Marauders."
+        detail: "Let’s break it down: An NFT is a Non-Fungible Token that represents a one-of-a-kind digital asset like music, videos, art and more. This unique digital representation serves as a certificate of authenticity and is recorded on the blockchain."
     },
     {
-        title: "​​Presale on Arbitrum (ETH L2)",
+        title: "When can I mint a StartSign NFT?",
+        date: 'August 2018',
+        detail: "The Pre-Sale and Public-Sale will be announced soon.."
+    },
+    {
+        title: "​​Is there a Whitelist",
         date: 'September 2021',
-        detail: "First public pre-sale on Arbitrum (Ethereum Layer 2). Lightning fast transactions and very low gas fees for OG Marauders. MARAUDERS NEVER FORGET."
+        detail: "Yes! Secure a spot on our Whitelist to make sure you get a Martian Ape at a reduced price before they go on public sale. Our Whitelist system is divided into 2 exclusive clubs.."
     },
     {
-        title: "First spaceship on ETH (L1)",
+        title: "What blockchain are the StartSign NFT's on?",
         date: 'October 2021',
-        detail: "A first spaceship landed on Ethereum filled with Marauders to mint. Will be followed by other spaceships."
+        detail: "The Martian Apes Collection is on the Ethereum Blockchain’s ERC-721 token. File are hosted through the IPFS."
     },
     {
-        title: "First spaceship on ETH (L1)",
+        title: "What can I do with my StartSign NFT?",
         date: 'October 2021',
-        detail: "A first spaceship landed on Ethereum filled with Marauders to mint. Will be followed by other spaceships."
+        detail: "You can use your Martian Ape NFT as an awesome profile pic for your socials or in any other way you want since you have unlimited commercial rights over it! The universe is the limit!"
     },
     {
-        title: "First spaceship on ETH (L1)",
+        title: "How can I mint a StartSign NFT?",
         date: 'October 2021',
-        detail: "A first spaceship landed on Ethereum filled with Marauders to mint. Will be followed by other spaceships."
+        detail: "The simplest way of minting a Martian Ape is by downloading the Metamask extension on your browser and connecting your ETH wallet to it. Make sure you have enough ETH to cover the NFT price and gas fees."
     },
     {
-        title: "First spaceship on ETH (L1)",
+        title: "Where can I see my NFT's after minting it?",
         date: 'October 2021',
-        detail: "A first spaceship landed on Ethereum filled with Marauders to mint. Will be followed by other spaceships."
+        detail: "Once you’ve successfully minted a Martian Ape NFT, you can view it by connecting it to your OpenSea wallet."
     },
     {
-        title: "First spaceship on ETH (L1)",
+        title: "Who’s behind the StartSign?",
         date: 'October 2021',
-        detail: "A first spaceship landed on Ethereum filled with Marauders to mint. Will be followed by other spaceships."
+        detail: "We’re a team of digital creators and early adopters of cryptocurrency and blockchain tech with a vivid imagination, a love for artwork, and years of experience in online marketing and community management. We believe that NFTs are the perfect space to bring our creative flair, crypto contacts, and marketing expertise together to create the successful digital project we’ve always envisioned."
+    },
+    {
+        title: "How do I contact the team?",
+        date: 'October 2021',
+        detail: "Hit us up on our Discord, where you can open a ticket for direct communication with our team! You could also email us at contact@startsign.io. We’re expecting an astronomical number of inquiries though, so we might not get back to you before the Public Sale begins."
     },
 
 ]
@@ -129,7 +134,7 @@ const Faq = () => {
                             )
                         }}
                     >
-                    <div className="title"> Roadmap </div>
+                    <div className="title"> FAQ </div>
                     <div className="data">
 
                         {

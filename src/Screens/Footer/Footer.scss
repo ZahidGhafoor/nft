@@ -3,9 +3,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  background-color: #19181b;
-
+    text-align: center;
     gap: 1rem;
+  background-color: #19181b;
+  @media screen and (max-width:500px){
+    font-size: 12px;
+    gap: 0.5rem;
+
+
+}
+
 
     .socials{
       .mainlog {

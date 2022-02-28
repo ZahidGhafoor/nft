@@ -3,13 +3,31 @@
     color: white;
     .about__header{
         margin: 8rem 8rem;
+        @media screen and (max-width:1400px){
+            margin: 2rem 4rem;
+
+        
+        
+        }
+        @media screen and (max-width:600px){
+            margin: 2rem 2rem;
+
+        
+        
+        }
         .first{
             font-size: 80px;
             line-height: 1.12em;
             font-weight: 400;
             letter-spacing: -0.1em;
+            @media screen and (max-width:1150px){
+               font-size: 50px;
+             }
+            @media screen and (max-width:800px){
+               font-size: 30px;
+             }
             span{
-                color: #25b190;
+                color: #d5092c;
             }
         }
         .last{
@@ -19,6 +37,16 @@
             .head__img{
                 height: 100px;
                 width: 200px;
+                @media screen and (max-width:1150px){
+                    height: 50px;
+                    width: 100px;
+
+                  }
+                @media screen and (max-width:800px){
+                    height: 30px;
+                    width: 50px;
+
+                  }
             }
         }
     }
@@ -28,13 +56,38 @@
         justify-content: space-between;
         gap: 3rem;
         margin: 2rem 8rem;
+        @media screen and (max-width:1400px){
+            margin: 2rem 4rem;
+            margin-top: 3rem;
+        }
+        @media screen and (max-width:600px){
+            margin: 2rem 2rem;
+
+        
+        
+        }
+        @media screen and (max-width:1150px){
+           flex-direction: column;
+        //    align-items: center;
+        }
         .left{
             max-width: 500px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            @media screen and (max-width:1150px){
+                max-width: 1000px;
+
+             }
             .heading{
                 font-size: 80px;
+                @media screen and (max-width:600px){
+                    font-size: 50px;
+                    font-weight: 700;
+        
+                
+                
+                }
 
             }
             .paras{
@@ -43,6 +96,12 @@
                 align-items: center;
                 gap: 2rem;
                 margin: 2.5rem 0;
+                @media screen and (max-width:750px){
+                    gap: 1rem;
+                    margin: 1.5rem 0;
+
+
+                  }
                 .para{
                     
                     color: hsla(0, 0%, 94.5%, 0.8);
@@ -74,7 +133,11 @@
             .right__img{
                 width: 600px;
                 border-radius: 10px;
-                // height: 100%;
+                height: 100%;
+                @media screen and (max-width:1150px){
+                    width: 100%;
+    
+                 }
             }
         }
 

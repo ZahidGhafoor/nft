@@ -2,10 +2,7 @@ import React from 'react'
 import "./Home.scss"
 
 // icons
-import logo from "../../Assets/logo.svg"
-import discord from "../../Assets/discord.svg"
-import insta from "../../Assets/insta.svg"
-import twiter from "../../Assets/twiter.svg"
+
 import gif from "../../Assets/home.gif"
 
 const Home = () => {
@@ -14,15 +11,15 @@ const Home = () => {
             <div className="home__container">
                 <div className="body">
                     <div className="left">
-                        <div className="first">ALIEN</div>
+                        <div className="first">START</div>
                         <div  className="line2">
-                            <div className="first">$ECRET</div>
+                            <div className="first">$IGN</div>
                             <div className="text">SPORTS</div>
                         </div>
-                        <div className="first">$OCIETY</div>
+                        <div className="first">BRAND</div>
 
                         <div className="left__para">
-                            A$$ is the future of networking business investing and entertainment
+                            STARSIGN is the future of networking business investing and entertainment
                         </div>
 
                         <div className="left__btn">Buy on OpenSea</div>
