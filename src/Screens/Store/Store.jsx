@@ -17,113 +17,114 @@ import img11 from "../../Assets/11.webp"
 
 const arr = [
     {
-        img:img1,
-        score:78.65,
-        ranking:8765
+        img: img1,
+        score: 78.65,
+        ranking: 8765
     },
     {
-        img:img2,
-        score:98.65,
-        ranking:4465
+        img: img2,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img3,
-        score:98.65,
-        ranking:4465
+        img: img3,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img4,
-        score:98.65,
-        ranking:4465
+        img: img4,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img5,
-        score:98.65,
-        ranking:4465
+        img: img5,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img6,
-        score:98.65,
-        ranking:4465
+        img: img6,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img7,
-        score:98.65,
-        ranking:4465
+        img: img7,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img8,
-        score:98.65,
-        ranking:4465
+        img: img8,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img9,
-        score:98.65,
-        ranking:4465
+        img: img9,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img10,
-        score:98.65,
-        ranking:4465
+        img: img10,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img11,
-        score:98.65,
-        ranking:4465
+        img: img11,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img1,
-        score:78.65,
-        ranking:8765
+        img: img1,
+        score: 78.65,
+        ranking: 8765
     },
     {
-        img:img2,
-        score:98.65,
-        ranking:4465
+        img: img2,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img3,
-        score:98.65,
-        ranking:4465
+        img: img3,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img4,
-        score:98.65,
-        ranking:4465
+        img: img4,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img5,
-        score:98.65,
-        ranking:4465
+        img: img5,
+        score: 98.65,
+        ranking: 4465
     },
     {
-        img:img6,
-        score:98.65,
-        ranking:4465
+        img: img6,
+        score: 98.65,
+        ranking: 4465
     },
 ]
 
 const Store = () => {
-  return (
-    <>
-    <div className="store__container">
+    return (
+        <>
+            <div className="store__container">
 
-        <div className="cards">
-            {arr.map((data,index)=>{
-                return(
-                    <div className="card">
-                <img src={data.img} alt="" className="card__img" />
-                <div className="number">#{index+1}</div>
-                <div className="score">Rarity score <span>{data.score}</span></div>
-                <div className="rank">Ranking <span>{data.ranking}</span></div>
-                <img src={icons} alt="" className="opensea" />
+                <div className="cards">
+                    {arr.map((data, index) => {
+                        return (
+                            <div className="card">
+                                <img src={data.img} alt="" className="card__img" />
+                                <div className="number">#{index + 1}</div>
+                                <div className="score">Rarity score <span>{data.score}</span></div>
+                                <div className="rank">Ranking <span>{data.ranking}</span></div>
+                                <img src={icons} alt="" className="opensea" />
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
-                )
-            })}
-        </div>
-    </div>
-    </>
-  )
+
+        </>
+    )
 }
 
 export default Store

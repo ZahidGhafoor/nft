@@ -1,6 +1,7 @@
 import React from 'react'
 import "./App.css"
 import About from './Screens/About/About'
+import CardDetails from './Screens/CardDetails/CardDetails'
 import Contact from './Screens/Contact/Contact'
 import Faq from './Screens/Faq/Faq'
 import Footer from './Screens/Footer/Footer'
@@ -16,7 +17,8 @@ const App = () => {
       <About/>
       <Faq/>
       <Contact/> */}
-      <Store/>
+      {/* <Store/> */}
+      <CardDetails/>
       <Footer/>
 
     </div>

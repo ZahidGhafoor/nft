@@ -1,0 +1,184 @@
+*{
+//   background-color: #19181b;
+
+}
+
+.cd__container{
+    padding: 2rem 10rem;
+  background-color: #19181b;
+  @media screen and (max-width:1600px){
+    padding: 2rem 5rem;
+
+}
+
+
+
+    .cd__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            .first{
+                font-size: 10px;
+                cursor: pointer;
+            }
+            .second{
+                font-size: 70px;
+                font-weight: 700;
+            }
+            .third{
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                span{
+                    color: skyblue;
+                    cursor: pointer;
+                }
+                .text{
+                    font-size: 12px;
+                }
+                .go__icons{
+                    .link{
+                        height: 15px;
+                        color: red;
+                    }
+                }
+            }
+        }
+        .right{
+            background-color: rgb(32, 129, 226);
+            border-radius: 5px;
+
+            .btn{
+                height: 40px;
+                display: flex;
+                align-items: center;
+                width: 220px;
+                gap: 10px;
+                justify-content: center;
+            }
+        }
+    }
+
+    .card__body{
+        margin: 2rem 0;
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        .left{
+            // max-width: 50%;
+            width: 41%;
+            .upper{
+                width: 100%;
+                .upper__img{
+                    width: 100%;
+
+                }
+            }
+            .bottom{
+                width: 95%;
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                margin-top: 10px;
+                .bottom__img{
+                    width: 25%;
+                }
+
+            }
+        }
+        .right{
+            .utilities{
+                box-shadow: 0 0px 15px 0 rgb(37 177 144 / 50%);
+                // border-radius: 10px;
+
+                .heading{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    padding: 1rem 1rem;
+                    background-color:#1e162d ;
+                }
+                .body{
+                    padding: 1rem 2rem;
+                    // background-color: #477438;
+                    ul li{
+                        list-style: square;
+                        margin: 5px 0;
+                    }
+                }
+            }
+            .attributes{
+                box-shadow: 0 0px 15px 0 rgb(37 177 144 / 50%);
+                // border-radius: 10px;
+                margin-top: 1rem;
+
+                .heading{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    padding: 1rem 1rem;
+                    background-color:#1e162d ;
+                }
+                .body{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    // grid-gap: 15px;
+                    padding: 1.5rem 2rem;
+                    gap: 15px;
+
+                    .card{
+                        background-color: #0d0423;
+                        padding: 15px 8px;
+                        font-size: 12px;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        text-align: center;
+                        border: 1px solid white;
+                        .rair {
+                            color: gray;
+                            span{
+                            color: yellow;
+                        }
+                    }
+                    }
+                }
+              
+            }
+            .details{
+                box-shadow: 0 0px 15px 0 rgb(37 177 144 / 50%);
+                // border-radius: 10px;
+                margin-top: 1rem;
+
+                .heading{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    padding: 1rem 1rem;
+                    background-color:#1e162d ;
+                }
+                .body{
+                    padding: 1rem 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    // align-items: center;
+                    gap: 10px;
+                  .first{
+                      display: flex;
+                      align-items: center;
+                      justify-content: space-between;
+                      .right span{
+                        color: yellow;
+                    }
+                  }
+                }
+              
+            }
+        }
+
+    }
+ 
+}
