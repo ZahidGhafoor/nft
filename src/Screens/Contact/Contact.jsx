@@ -1,9 +1,6 @@
 import React from 'react';
 import "./Contact.scss"
 
-import discord from "../../Assets/discord.svg"
-import insta from "../../Assets/insta.svg"
-import twiter from "../../Assets/twiter.svg"
 
 import phone from "../../Assets/phone.png"
 import EmailIcon from '@mui/icons-material/Email';
@@ -69,22 +66,7 @@ const Contact = (props) => {
 
        
         </div>
-             <div className="footer">
-             <div className="socials">
-                 <img src={discord} alt="" className="mainlog" />
-                 <img src={insta} alt="" className="mainlog" />
-                 <img src={twiter} alt="" className="mainlog" />
-                 <FacebookIcon  className="muilog" />
-
-
-             </div>
-             <div className="terms">
-                 Terms & Conditions
-             </div>
-             <div className="copy">
-             © 2022 StartSign. All Rights Reserved.
-             </div>
-         </div>
+        
         </>
     )
 };

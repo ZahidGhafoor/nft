@@ -1,0 +1,27 @@
+.top__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+  
+  .social__icons {
+    display: flex;
+    align-items: center;
+
+    .mainlog {
+      height: 20px;
+      margin: 0 0.6rem;
+    }
+
+    .sea {
+      color: black;
+      background-color: white;
+      padding: 9px 20px;
+      border-radius: 25px;
+      font-size: 18px;
+      margin-left: 1.5rem;
+        font-family: 'Roboto Mono', Arial, sans-serif;
+
+    }
+  }
+}
