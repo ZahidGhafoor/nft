@@ -12,15 +12,17 @@ import Store from './Screens/Store/Store'
 const App = () => {
   return (
     <div>
-      <Navbar/>
-    <Contact/>
-      {/* <About/> */}
-      {/* <Home/> */}
-      {/* 
-    <Faq/>
-      {/* <Store/>
-      <CardDetails/> */}
-      <Footer/>
+      <Navbar />
+      {/* <About />
+      <Contact />
+      <Home />
+
+      <Faq />
+
+    <Store /> 
+    */}
+    <CardDetails />
+      <Footer />
 
     </div>
   )

@@ -136,9 +136,9 @@ const CardDetails = () => {
                                arr.map((data)=>{
                                    return(
                                     <div className="card">
-                                    <div className="title">{data.title}</div>
-                                    <div className="main">{data.condition}</div>
-                                    <div className="rair"><span>Rarity {data.percent}% </span>({data.rair})</div>
+                                    <div className="title color">{data.title}</div>
+                                    <div className="main color">{data.condition}</div>
+                                    <div className="rair color"><span>Rarity {data.percent}% </span>({data.rair})</div>
                                 </div>
                                    )
                                })
