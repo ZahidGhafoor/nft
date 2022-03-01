@@ -7,6 +7,7 @@ import Faq from './Screens/Faq/Faq'
 import Footer from './Screens/Footer/Footer'
 import Home from './Screens/Home/Home'
 import Navbar from './Screens/Navbar/Navbar'
+import Question from './Screens/Question/Question'
 import Store from './Screens/Store/Store'
 
 const App = () => {
@@ -21,7 +22,8 @@ const App = () => {
 
     <Store /> 
     */}
-    <CardDetails />
+    {/* <CardDetails /> */}
+    <Question/>
       <Footer />
 
     </div>
