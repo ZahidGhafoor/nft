@@ -8,6 +8,7 @@ import Footer from './Screens/Footer/Footer'
 import Home from './Screens/Home/Home'
 import LinkBar from './Screens/LinkBar/LinkBar'
 import Navbar from './Screens/Navbar/Navbar'
+import Question from './Screens/Question/Question'
 import Store from './Screens/Store/Store'
 
 const App = () => {
