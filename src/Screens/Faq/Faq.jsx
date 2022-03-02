@@ -124,16 +124,6 @@ const Faq = (props) => {
         <>
             <div ref={props.faq} className="roadmap_container">
                 <div className="box">
-                    <Parallax
-                        renderLayer={(percentage) => {
-                            let t = percentage * 900
-                            return (
-                                <div className="ship4" style={{ transform: `translateX(${-t + 200}px) translateY(${t - 466}px)` }} >
-                                    {/* <img src={Ship} alt="ERROR" /> */}
-                                </div>
-                            )
-                        }}
-                    >
                     <div className="title"> MISSION </div>
                     <div className="data">
 
@@ -172,8 +162,7 @@ const Faq = (props) => {
                             })
                         }
 
-                                           </div>
-                    </Parallax>
+                    </div>
                 </div>
             </div>
         </>

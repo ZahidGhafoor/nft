@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.scss"
 
 import NavBar from "../Navbar/Navbar"
+import StarVideo from "../../Assets/stars.mp4"
 
 // icons
 
@@ -10,7 +11,12 @@ import gif from "../../Assets/home.gif"
 const Home = (props) => {
     return (
         <>
-            <div ref={props.home} className="home__container">
+            <div ref={props.home}  className="home__container">
+                <div className="vedio_box">
+                <video autoPlay="true" loop playsInline muted data-wf-ignore="true" data-object-fit="cover" >
+                        <source src={StarVideo} type="video/mp4" data-wf-ignore="true" />
+                    </video>
+                </div>
                 <NavBar />
                 <div className="body">
                     <div className="left">
