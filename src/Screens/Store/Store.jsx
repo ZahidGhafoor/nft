@@ -13,6 +13,7 @@ import img8 from "../../Assets/8.webp"
 import img9 from "../../Assets/9.webp"
 import img10 from "../../Assets/10.webp"
 import img11 from "../../Assets/11.webp"
+import Navbar from '../Navbar/Navbar'
 
 
 const arr = [
@@ -106,6 +107,7 @@ const arr = [
 const Store = () => {
     return (
         <>
+        <Navbar/>
             <div className="store__container">
 
                 <div className="cards">

@@ -1,132 +1,128 @@
 .roadmap_container {
-    color: white;
-    margin: 3rem auto;
-    font-family: "Poppins", sans-serif;
-    max-width: calc(80rem + 200px);
-    box-sizing: border-box;
-    padding: 0 100px;
+  color: white;
+  margin: 3rem auto;
+  font-family: "Poppins", sans-serif;
+  max-width: calc(80rem + 200px);
+  box-sizing: border-box;
+  padding: 0 100px;
 
-  
-    @media only screen and(max-width:600px) {
-      padding: 0 1rem;
+  @media only screen and(max-width:600px) {
+    padding: 0 1rem;
+  }
+
+  .box {
+    position: relative;
+    border-radius: 0.7rem;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .title {
+      text-align: center;
+      font-family: "hanson";
+      font-size: 3rem;
+      margin-bottom: 4rem;
     }
-  
-    .box {
-      position: relative;
-      border-radius: 0.7rem;
-      padding: 1.5rem 0;
-      display: flex;
-      flex-direction: column;
-      gap: 3rem;
-  
-      .title {
-        text-align: center;
-        font-family: "hanson";
-        font-size: 3rem;
-        margin-bottom: 4rem;
+
+    .data {
+      @media only screen and(max-width:1000px) {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
       }
-  
-      .data {
+      .acordian_box {
+        display: flex;
+        gap: 1rem;
+        justify-content: start;
+        flex-direction: row-reverse;
+        &:nth-child(odd) {
+          justify-content: end;
+          flex-direction: row;
+        }
+
         @media only screen and(max-width:1000px) {
+          flex-direction: row;
+          &:nth-child(odd) {
+            justify-content: start;
+            flex-direction: row;
+          }
+
+          .MuiPaper-elevation {
+            width: -webkit-fill-available;
+          }
+        }
+
+        .line {
+          .tick {
+            //   background-color: #30f2ac;
+            box-shadow: 0px 0px 10px 0 rgba(177, 37, 37, 0.5);
+
+            height: 30px;
+            width: 30px;
+            border-radius: 50rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            color: black;
+          }
+          P {
+            background-color: rgba(177, 37, 37, 0.5);
+            height: 100%;
+            width: 2px;
+            margin: 0 auto;
+          }
+        }
+
+        // .acordian {
+        .name {
           display: flex;
           flex-direction: column;
-          gap: 1rem;
-        }
-        .acordian_box {
-          display: flex;
-          gap: 1rem;
-          justify-content: start;
-          flex-direction: row-reverse;
-          &:nth-child(odd) {
-            justify-content: end;
-            flex-direction: row;
-          }
-  
-          @media only screen and(max-width:1000px) {
-            flex-direction: row;
-            &:nth-child(odd) {
-              justify-content: start;
-              flex-direction: row;
-            }
-  
-            .MuiPaper-elevation {
-              width: -webkit-fill-available;
-            }
-          }
-  
-          .line {
-            .tick {
-            //   background-color: #30f2ac;
-      box-shadow: 0px 0px 10px 0 rgba(177, 37, 37, 0.5);
+          gap: 0.5rem;
+          .done {
+            background-color: #b12525;
 
-              height: 30px;
-              width: 30px;
-              border-radius: 50rem;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 1.2rem;
-              color: black;
-            }
-            P {
-              background-color:  rgba(177, 37, 37, 0.5);
-              height: 100%;
-              width: 2px;
-              margin: 0 auto;
-            }
+            width: fit-content;
+            padding: 0.2rem 0.5rem;
+            color: white;
+            border-radius: 1rem;
+            font-size: small;
+            font-weight: bold;
           }
-  
-          // .acordian {
-          .name {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-            .done {
-              background-color: #b12525;
-
-              width: fit-content;
-              padding: 0.2rem 0.5rem;
-              color: white;
-              border-radius: 1rem;
-              font-size: small;
-              font-weight: bold;
-            }
-            .detail {
-              
-              font-size: 1rem;
-            .upper{
+          .detail {
+            font-size: 1rem;
+            .upper {
               font-weight: 700;
               font-size: 1.2rem;
               @media only screen and (max-width: 500px) {
-        font-size: 0.7rem;
-      
-      }
-            }
-      }
-              .date {
-                color: white;
-                // font-weight: 700;
-                
+                font-size: 0.7rem;
               }
             }
           }
-          // }
+          .date {
+            color: white;
+            // font-weight: 700;
+          }
         }
       }
-  
-      .ship4 {
-        position: absolute;
-        width: 300px;
-        right: -550px;
-        top: -150px;
-        z-index: 55;
-        img {
-          background-color: transparent;
-          width: 100%;
-        }
-      }
+      // }
     }
-
-  .react-parallax {
-    overflow: visible !important;
   }
+
+  .ship4 {
+    position: absolute;
+    width: 300px;
+    right: -550px;
+    top: -150px;
+    z-index: 55;
+    img {
+      background-color: transparent;
+      width: 100%;
+    }
+  }
+}
+
+.react-parallax {
+  overflow: visible !important;
+}
