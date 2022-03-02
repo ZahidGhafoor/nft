@@ -1,16 +1,17 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 import "./LinkBar.scss"
 
-const LinkBar = () => {
+const LinkBar = (props) => {
     return (
         <>
             <div className="navbar">
-                <div className="item">HOME</div>
-                <div className="item">VISION</div>
-                <div className="item">MISSION</div>
-                <div className="item">METASTREETS</div>
-                <div className="item">CONTACT</div>
+                <NavLink onClick={props.homescroll} exact to="/" className="item">HOME</NavLink>
+                <NavLink onClick={props.aboutscroll} to="/vison" className="item">VISION</NavLink>
+                <NavLink onClick={props.faqscroll} to="/mission" className="item">MISSION</NavLink>
+                <NavLink to="/store" className="item">METASTREETS</NavLink>
+                <NavLink onClick={props.contactscroll} to="/contact" className="item">CONTACT</NavLink>
             </div>
         </>
     )

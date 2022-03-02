@@ -10,7 +10,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 const Contact = (props) => {
     return (
         <>
-        <div ref={props.contacts} className="contact__container">
+        <div ref={props.contact} className="contact__container">
             <div className="heading">Contact</div>
             <div className="para">Share your idea with us and let's get started right now!</div>
             <div className="upper">

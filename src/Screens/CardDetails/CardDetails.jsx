@@ -13,6 +13,7 @@ import img5 from "../../Assets/5.webp"
 import BoltIcon from '@mui/icons-material/Bolt';
 import DiamondIcon from '@mui/icons-material/Diamond';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
+import Navbar from '../Navbar/Navbar';
 
 const arr = [
     {
@@ -73,6 +74,8 @@ const arr = [
 ]
 const CardDetails = () => {
     return (
+        <>
+        <Navbar/>
         <div className="cd__container">
             <div className="cd__header">
                 <div className="left">
@@ -172,6 +175,7 @@ const CardDetails = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

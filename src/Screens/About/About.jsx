@@ -14,7 +14,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 
 
 
-const About = () => {
+const About = (props) => {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -25,7 +25,7 @@ const About = () => {
     setOpen(false);
   };
   return (
-    <div className="about__container">
+    <div ref={props.about} className="about__container">
       <div className="about__header">
         <div className="first">StartSign IS</div>
         <div className="first">THE FURTURE</div>

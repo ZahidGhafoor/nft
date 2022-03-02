@@ -7,10 +7,10 @@ import NavBar from "../Navbar/Navbar"
 
 import gif from "../../Assets/home.gif"
 
-const Home = () => {
+const Home = (props) => {
     return (
         <>
-            <div className="home__container">
+            <div ref={props.home} className="home__container">
                 <NavBar />
                 <div className="body">
                     <div className="left">

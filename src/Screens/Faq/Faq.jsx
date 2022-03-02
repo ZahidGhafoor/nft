@@ -113,7 +113,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 
-const Faq = () => {
+const Faq = (props) => {
     const [expanded, setExpanded] = React.useState('');
 
     const handleChange = (panel) => (event, newExpanded) => {
@@ -122,7 +122,7 @@ const Faq = () => {
 
     return (
         <>
-            <div className="roadmap_container">
+            <div ref={props.faq} className="roadmap_container">
                 <div className="box">
                     <Parallax
                         renderLayer={(percentage) => {
