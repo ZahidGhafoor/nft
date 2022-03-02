@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Home.scss"
 
+import NavBar from "../Navbar/Navbar"
+
 // icons
 
 import gif from "../../Assets/home.gif"
@@ -9,10 +11,11 @@ const Home = () => {
     return (
         <>
             <div className="home__container">
+                <NavBar />
                 <div className="body">
                     <div className="left">
                         <div className="first">START</div>
-                        <div  className="line2">
+                        <div className="line2">
                             <div className="first">$IGN</div>
                             <div className="text">SPORTS</div>
                         </div>
@@ -31,15 +34,9 @@ const Home = () => {
 
 
 
+
                 </div>
 
-                <div className="navbar">
-                    <div className="item">HOME</div>
-                    <div className="item">VISION</div>
-                    <div className="item">MISSION</div>
-                    <div className="item">METASTREETS</div>
-                    <div className="item">CONTACT</div>
-                </div>
             </div>
         </>
     )

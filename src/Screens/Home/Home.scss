@@ -1,7 +1,6 @@
 .home__container {
   background-color: #19181b;
-  min-height: calc(100vh - 2vh);
-  // height: 100vh;
+  height: 100vh;
   .body {
     display: flex;
     align-items: center;
@@ -11,7 +10,6 @@
       .first {
         margin-top: 0px;
         margin-bottom: 0px;
-        // font-family: 'Disket Mono', sans-serif;
         font-size: 97px;
         line-height: 1em;
         font-weight: 400;
@@ -20,83 +18,102 @@
       .line2 {
         display: flex;
         align-items: center;
-        .text{
-            padding: 8px 20px;
-            margin-left: 10px;
-    border-radius: 90px;
-    background-color: #25b190;
-    font-size: 26px;
-    letter-spacing: -0.1em;
-    box-shadow: 0 0 16px 0 #25b190;
-    opacity: 1;
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+        .text {
+          padding: 8px 20px;
+          margin-left: 10px;
+          border-radius: 90px;
+          background-color: #b12525;
+          font-size: 26px;
+          letter-spacing: -0.1em;
+          box-shadow: 0 0 16px 0 #b12525;
+          opacity: 1;
+          -webkit-transition: all 300ms ease;
+          transition: all 300ms ease;
         }
       }
-      .left__para{
+      .left__para {
         margin-top: 3rem;
         max-width: 413px;
         font-size: 16px;
         line-height: 16px;
         margin-left: 10px;
       }
-      .left__btn{
+      .left__btn {
         margin-left: 7px;
         margin-top: 3rem;
         /* padding: 12px 20px; */
         border-radius: 90px;
-        background-color: #25b190;
+        background-color: #b12525;
         font-size: 21px;
         letter-spacing: -0.1em;
-        box-shadow: 0 0 16px 0 #25b190;
+        box-shadow: 0 0 16px 0 #b12525;
         opacity: 1;
         transition: all 300ms ease;
         max-width: 223px;
         text-align: center;
         padding: 12px 0;
+      }
 
+      @media only screen and (max-width: 1500px) {
+        .first {
+          font-size: 4rem;
+        }
+        .line2 {
+          .text {
+            font-size: 1.5rem;
+          }
+        }
+        .left__para {
+          font-size: 0.9rem;
+        }
+        .left__btn {
+          font-size: 1rem;
+        }
       }
     }
 
     .right {
-      width: 40%;
-      // height: 50%;
+      width: 500px;
       .right__gif {
         width: 100%;
         border-radius: 10px;
-        // height: 100%;
+      }
+
+      @media only screen and(max-width:1500px)  {
+        width: 400px;
       }
     }
   }
-  .navbar{
- display: flex;
- gap: 3px;
- position: fixed;
- bottom: 0;
- width: 100%;
+  .navbar {
+    display: flex;
+    gap: 3px;
+    //  position: fixed;
+    position: sticky;
+    top: 40px;
+    width: 100%;
 
-      .item{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        padding: 8px 20px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border-top: 4px solid hsla(0, 0%, 94.5%, 0);
-        font-size: 14px;
-        border-bottom: 4px solid transparent;
-        background-color: #3c3c3c;
-        -webkit-transition: all 300ms ease;
-        transition: all 300ms ease;
-        
-        text-align: center;
-        text-decoration: none;
-      }
+    .item {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      padding: 8px 20px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-top: 4px solid hsla(0, 0%, 94.5%, 0);
+      font-size: 14px;
+      border-bottom: 4px solid transparent;
+      background-color: #3c3c3c;
+      -webkit-transition: all 300ms ease;
+      transition: all 300ms ease;
+
+      text-align: center;
+      text-decoration: none;
+    }
   }
 }

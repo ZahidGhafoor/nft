@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  gap: 3px;
+  position: sticky;
+  top: 40px;
+  width: 100%;
+
+  transform: translate(0 , -40px);
+
+  .item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 8px 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 4px solid hsla(0, 0%, 94.5%, 0);
+    font-size: 14px;
+    border-bottom: 4px solid transparent;
+    background-color: #3c3c3c;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+
+    text-align: center;
+    text-decoration: none;
+  }
+}
