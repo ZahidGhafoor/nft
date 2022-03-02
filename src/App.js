@@ -14,14 +14,14 @@ import Store from './Screens/Store/Store'
 const App = () => {
   return (
     <div>
-      {/* <Home />
+      <Home />
       <LinkBar />
       <About />
       <Faq />
       <Test/>
-      <Contact /> */}
+      <Contact />
       {/* <Store />  */}
-      <CardDetails />
+      {/* <CardDetails /> */}
       <Footer />
 
     </div>

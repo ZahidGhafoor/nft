@@ -10,8 +10,11 @@
   margin: 0;
   padding: 0;
   color: white;
-  background-color: #19181b;
-
   box-sizing: border-box;
   font-family: 'Zahid';
+}
+
+body{
+  background-color: #19181b;
+
 }

@@ -1,9 +1,24 @@
 .home__container {
-  background-color: #19181b;
   height: 100vh;
+  position: relative;
   @media screen and (max-width:800px){
     height: 100%;
 
+  }
+
+  .vedio_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    video{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
   .body {
     display: flex;
@@ -89,7 +104,10 @@
       }
 
       @media only screen and(max-width:1500px)  {
-        width: 400px;
+        width: 350px;
+      }
+      @media only screen and(max-width:1300px)  {
+        width: 300px;
       }
       @media only screen and(max-width:500px)  {
         width: 320px;
