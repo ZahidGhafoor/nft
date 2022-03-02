@@ -2,10 +2,15 @@
   display: flex;
   gap: 3px;
   position: sticky;
-  top: 40px;
+  top: 43px;
   width: 100%;
-
+  z-index: 90;
   transform: translate(0 , -40px);
+//   @media screen and (max-width:500px){
+//    margin-top: 1rem;
+
+
+// }
 
   .item {
     display: flex;
@@ -29,5 +34,14 @@
 
     text-align: center;
     text-decoration: none;
+    @media screen and (max-width:600px){
+     font-size: 10px;
+     font-weight: 700;
+    padding: 8px 10px;
+
+
+  
+  }
+
   }
 }

@@ -71,7 +71,7 @@ const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
     backgroundColor: " #19181b",
-    boxShadow: "0 10px 30px 0 rgba(177, 37, 37, 0.5)",
+    boxShadow: "0px 0px 8px 0 rgba(177, 37, 37, 0.5)",
     width: "calc(50% - 31px)",
     fontFamily: "Poppins",
     margin: '0 0 2rem 0',
@@ -129,12 +129,12 @@ const Faq = () => {
                             let t = percentage * 900
                             return (
                                 <div className="ship4" style={{ transform: `translateX(${-t + 200}px) translateY(${t - 466}px)` }} >
-                                    <img src={Ship} alt="ERROR" />
+                                    {/* <img src={Ship} alt="ERROR" /> */}
                                 </div>
                             )
                         }}
                     >
-                    <div className="title"> FAQ </div>
+                    <div className="title"> MISSION </div>
                     <div className="data">
 
                         {
@@ -154,7 +154,7 @@ const Faq = () => {
                                                             Done
                                                         </div>
                                                         <div className="detail">
-                                                            <p style={{ fontWeight: "bold", fontSize: "1.2rem" }}> {data.title} </p>
+                                                            <p className='upper'> {data.title} </p>
                                                             <p className='date'> {data.date} </p>
                                                         </div>
                                                     </div>

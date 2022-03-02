@@ -57,7 +57,7 @@
           .line {
             .tick {
             //   background-color: #30f2ac;
-      box-shadow: 0 10px 30px 0 rgba(177, 37, 37, 0.5);
+      box-shadow: 0px 0px 10px 0 rgba(177, 37, 37, 0.5);
 
               height: 30px;
               width: 30px;
@@ -69,7 +69,7 @@
               color: black;
             }
             P {
-              background-color: #30f2ac;
+              background-color:  rgba(177, 37, 37, 0.5);
               height: 100%;
               width: 2px;
               margin: 0 auto;
@@ -82,18 +82,31 @@
             flex-direction: column;
             gap: 0.5rem;
             .done {
-              background-color: #30f2ac;
+              background-color: #b12525;
+
               width: fit-content;
               padding: 0.2rem 0.5rem;
-              color: black;
+              color: white;
               border-radius: 1rem;
               font-size: small;
               font-weight: bold;
             }
             .detail {
+              
               font-size: 1rem;
+            .upper{
+              font-weight: 700;
+              font-size: 1.2rem;
+              @media only screen and (max-width: 500px) {
+        font-size: 0.7rem;
+      
+      }
+            }
+      }
               .date {
-                color: #30f2ac;
+                color: white;
+                // font-weight: 700;
+                
               }
             }
           }
@@ -113,7 +126,6 @@
         }
       }
     }
-  }
 
   .react-parallax {
     overflow: visible !important;

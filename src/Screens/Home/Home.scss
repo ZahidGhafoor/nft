@@ -1,11 +1,21 @@
 .home__container {
   background-color: #19181b;
   height: 100vh;
+  @media screen and (max-width:800px){
+    height: 100%;
+
+  }
   .body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem 0;
+    @media screen and (max-width:800px){
+      flex-direction: column;
+      gap: 2rem;
+    padding: 2rem 2rem;
+
+    }
     .left {
       .first {
         margin-top: 0px;
@@ -41,7 +51,6 @@
       .left__btn {
         margin-left: 7px;
         margin-top: 3rem;
-        /* padding: 12px 20px; */
         border-radius: 90px;
         background-color: #b12525;
         font-size: 21px;
@@ -81,6 +90,9 @@
 
       @media only screen and(max-width:1500px)  {
         width: 400px;
+      }
+      @media only screen and(max-width:500px)  {
+        width: 320px;
       }
     }
   }

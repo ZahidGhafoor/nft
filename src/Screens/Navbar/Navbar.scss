@@ -30,13 +30,15 @@
     }
 
     .sea {
-      color: black;
-      background-color: white;
+      color: white;
+      background-color: #b12525;
+
       padding: 9px 20px;
       border-radius: 25px;
       font-size: 18px;
       font-weight: 700;
-      box-shadow: 0 0 10px 0 white;
+      box-shadow: 0 0 16px 0 #b12525;
+
       margin-left: 1.5rem;
         font-family: 'Roboto Mono', Arial, sans-serif;
         @media screen and (max-width:500px){

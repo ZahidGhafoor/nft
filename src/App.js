@@ -8,17 +8,17 @@ import Footer from './Screens/Footer/Footer'
 import Home from './Screens/Home/Home'
 import LinkBar from './Screens/LinkBar/LinkBar'
 import Navbar from './Screens/Navbar/Navbar'
-import Question from './Screens/Question/Question'
+import Test from './Screens/Questions/Test'
 import Store from './Screens/Store/Store'
 
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Home />
       <LinkBar />
       <About />
       <Faq />
+      <Test/>
       <Contact />
       {/* <Store />  */}
       {/* <CardDetails /> */}
