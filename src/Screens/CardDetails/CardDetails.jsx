@@ -15,6 +15,7 @@ import DiamondIcon from '@mui/icons-material/Diamond';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import Navbar from '../Navbar/Navbar';
 
+
 const arr = [
     {
         title: "EYES",

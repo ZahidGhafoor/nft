@@ -41,12 +41,15 @@ const About = (props) => {
         <div className="left">
           <div className="heading">About Us</div>
           <div className="paras">
-            <div className="para">9999 Aliens left their planet to find a better place to establish themselves. They went through 43 different worlds … and they finally chose the Earth. This came after an important meeting changed everything …</div>
+            <div className="para">STARTSIGN is taking a multidisciplinary approach to bringing the street culture to the digital world. Actively we are engaged in the creation of NFT collections for the Fashion, Music, and Art communities.  « From the Streets to the Streets ».  Everything we do is to empower the Hip Hop movement.
+              - STARTSIGN is fully commited to delivering outstanding customer experiences that are up to date with the newest Web3.0 Technologies.
+              - Driven by purpose, belief and hope for a better future, we’re daily investing in building a strong foundation to this long term project in order to take the Street Culture to the next level.</div>
             <div className="para">
-              One Alien named A-12 was walking into the Hollywood hills. Suddenly, A-12 saw two guys sitting on the roof of their car, celebrating their latest business deal.
+            The world around us is rapidly changing and redefining our reality. Obviously, ‘Virtual’ is the new ‘Real’, which is the reason why our priority mission is to protect the Street Culture in this new reality. 
             </div>
             <div className="para">
-              The two guys told the Alien about how they had changed their lives becoming entrepreneurs. After hours of passionate conversation, they came to an agreement. Together, they will unite their forces to create the most exclusive business club in the world…
+              Thanks to the innovative blockchain technology we can keep the culture alive forever in this new digital universe. 
+- THE METASTREETS is a digital projection of the urban lifestyle as we know today.
             </div>
           </div>
           <div onClick={handleClickOpen} className="left__btn">

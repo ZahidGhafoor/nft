@@ -25,7 +25,7 @@ const Home = (props) => {
                             <div className="first">$IGN</div>
                             <div className="text">SPORTS</div>
                         </div>
-                        <div className="first">BRAND</div>
+                        {/* <div className="first">BRAND</div> */}
 
                         <div className="left__para">
                             STARSIGN is the future of networking business investing and entertainment

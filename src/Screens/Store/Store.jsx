@@ -15,6 +15,8 @@ import img10 from "../../Assets/10.webp"
 import img11 from "../../Assets/11.webp"
 import Navbar from '../Navbar/Navbar'
 import { useHistory } from 'react-router-dom'
+import LinkBar from '../LinkBar/LinkBar';
+
 
 
 const arr = [
@@ -109,13 +111,15 @@ const Store = () => {
     let history = useHistory();
 
     function cardpush() {
-      history.push("/nft-deatils");
+        history.push("/nft-deatils");
     }
-  
+
     return (
         <>
-        <Navbar/>
+            <Navbar />
+
             <div className="store__container">
+                <LinkBar />
 
                 <div className="cards">
                     {arr.map((data, index) => {
